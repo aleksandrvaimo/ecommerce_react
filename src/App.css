@@ -1,0 +1,125 @@
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  margin: 0 0 0 5px;
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#root {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.current-order {
+  text-align: left;
+  padding: 5px 10px;
+  width: 720px;
+  margin: 10px auto 0;
+  left: 0;
+  top: 0;
+}
+.current-order .order-element {
+  width: 100%;
+  font-size: 20px;
+}
+.current-order .order-element span.paid {
+  color: #a40000;
+  font-weight: bold;
+}
+.order-element div {
+  display: inline-block;
+  width: 100%;
+}
+.order-element div span{
+  float: left;
+}
+.order-item-container {
+  margin: 10px;
+  width: 100%
+}
+.order-item {
+  margin: 0 0 10px;
+  float: left;
+  padding: 10px;
+  font-size: 16px;
+}
+.order-container {
+  position: relative;
+  left: 0;
+  top: 10px;
+  width: 100%;
+  padding: 0;
+}
+.order-container .order-element {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.order-container .order-element button:first-child {
+  margin: 0 0 0 0px;
+}
+.order-container .order-element button {
+  background: #4ba1ff;
+  color: #fff;
+}
+
+.products {
+  margin: 0 auto 15px;
+  width: 60%;
+  min-height: 450px;
+  padding: 10px;
+  display: inline-block;
+  background: #efefef;
+  font-size: 15px;
+}
+
+.products li {
+  width: 150px;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.products li:first-child {
+  margin-left: 0;
+}
+
+.products li span {
+  display: block;
+  width: 100%;
+}
+
+.products li span button {
+  margin: 10px 0 15px 0;
+  background: #8f8f8f;
+  color: #fff;
+}
+.create-order-container {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  min-height: 450px;
+  float: left;
+  background: #f1f5ff;
+  padding: 10px;
+}
+.create-order button {
+  padding: 10px 20px;
+  background: #578ac6;
+  border: 1px solid #ccc;
+  color: #fff;
+  font-size: 20px;
+}
